@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import ExperienceCard from '../components/ExperienceCard';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Services from '../components/Services'; 
@@ -17,6 +18,9 @@ const Home: NextPage = () => {
       </section>
       <section id="sectionServices" className='snap-center'>
         <Services />
+      </section>
+      <section id="sectionPortfolio">
+        <ExperienceCard />
       </section>
     </div>
   )
