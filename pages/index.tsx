@@ -19,7 +19,9 @@ const Home: NextPage = () => {
       <section id="sectionServices" className='snap-center'>
         <Services />
       </section>
-      <section id="sectionPortfolio">
+      <section id="sectionExperienceCard" className='snap-end'>
+        <ExperienceCard />
+        <ExperienceCard />
         <ExperienceCard />
       </section>
     </div>
